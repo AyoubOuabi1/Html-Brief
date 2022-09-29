@@ -1,5 +1,59 @@
+
 body{
-    box-sizing: border-box;
-    background-color: #eeeae4;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0rem;
+}
+#navHeader {
+    display: flex; 
+    justify-content: space-around;
+    
+ }
+ul {
+    display: flex;  
+    list-style: none;  
+    margin-right: auto;
+    margin-top: 2rem;
+    
+}
+  
+ul li {
+    margin-right: 2rem;
+}
+a{
+    color: black;
+    text-decoration: none
+}
+ #logo{
+    width: 8%;
+    height: 8%;
+    margin: 1%;
+}
+a:hover{
+    color: blue;
+} 
+#breadcrumbs {
+    display: flex; 
+    
+ }
+ #breadcrumbs li {
+    margin-right: 1rem;
+}
+ol {
+    display: flex;  
+    list-style: none;  
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.productCard{
+    border: 0.6mm solid rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+}
+h4{
+    margin-top: -1rem;
+}
+h2{
+    margin-bottom: 3rem;
 }
